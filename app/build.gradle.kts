@@ -1,11 +1,17 @@
+
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+
 }
 
 android {
     namespace = "eu.tutorial.todolist"
     compileSdk = 35
+    buildFeatures {
+        dataBinding = false // Add this line
+    }
 
     defaultConfig {
         applicationId = "eu.tutorial.todolist"

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="myButton" type="id">id</item>
+    <item name="scrollView" type="id">scrollView</item>
+    <item name="fabAddTask" type="id">fabAddTask</item>
+    <item name="checkBox" type="id">checkBox</item>
+    <item name="taskTextView" type="id">taskTextView</item>
 </resources>
