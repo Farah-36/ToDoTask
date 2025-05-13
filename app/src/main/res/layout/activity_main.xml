@@ -27,6 +27,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
+        android:contentDescription="TODO"
         app:srcCompat="@android:drawable/ic_input_add"
         android:tint="@android:color/white"
         app:backgroundTint="#2196F3"/>
